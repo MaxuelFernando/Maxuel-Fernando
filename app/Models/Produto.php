@@ -10,6 +10,6 @@ class Produto extends Model
     use HasCacheLock;
 
     protected $fillable = [
-        "descricao","qtd", "precoVenda"
+        "descricao","qtd", "precoVenda", "precoUnitario"
     ];
 }
